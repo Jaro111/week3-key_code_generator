@@ -1,0 +1,143 @@
+
+#indexBody{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+}
+
+#mainBody{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+}
+
+
+nav {
+    display: flex;
+    height:fit-content;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    justify-content: center;
+    border-bottom: 2px solid greenyellow;
+    margin-left: 0;
+}
+h2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h3 {
+    color:darkgoldenrod;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+.centre {
+    background-color: darkgray;
+    display: flex;
+    height: 100vw;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+/* Centre main */
+.centreMain {
+    background-color: darkgray;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+#welcome {
+    background-color: lightgray;
+    color: brown;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    text-transform: uppercase;
+    margin-top: 50px ;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#welcome1 {
+    background-color: lightgray;
+    color: brown;
+    width: 30%;
+    height: 40%;
+    border: 1px solid darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 20px ;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.codeBox {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    height: 80%;
+    width: 80%;
+    
+
+    
+}
+
+.codeTitle {
+    font-size: 30px;
+    text-transform: none;
+    margin: 0;
+}
+
+#code {
+    margin: 0;
+    font-size: 30px;
+    height: fit-content;
+
+}
+
+
+#key{
+    margin: 0;
+    font-size: 30px;
+    height: fit-content;
+
+}
+
+#charCode{
+    margin: 0;
+    font-size: 30px;
+    height: fit-content;
+
+}
+
