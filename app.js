@@ -16,13 +16,13 @@ const codeKey = document.getElementById('code');
 const key =document.getElementById('key');
 const charCod = document.getElementById('charCode');
 
-
+// Condition function disables action for some keys like for example F5 which refreshes the page
 conditonFunc = () => {
     if (event.which === 116 || event.keyCode === 9 || event.charCode === 0) {
         event.preventDefault();
     }
 }
-
+// 'Keyup' event listener
 document.addEventListener('keyup', (event) => {
     console.log(event)
     charCod.textContent = event.which
@@ -31,9 +31,7 @@ document.addEventListener('keyup', (event) => {
     conditonFunc()
 })
 
-
-
-
+// 'Keydown' event listener
 document.addEventListener('keydown', (event) => {
     console.log(event)
     codeKey.textContent = event.code
@@ -42,6 +40,7 @@ document.addEventListener('keydown', (event) => {
     conditonFunc()
 })
 
+// Function to redirect to main app window if any key is pressed
 redirect.addEventListener('keypress', (event) => {
     window.location.replace('./main.html')
 
